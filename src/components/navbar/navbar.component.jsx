@@ -3,7 +3,11 @@ const NavBar = () => {
     <nav class="flex justify-around items-center bg-white shadow-md p-2 position: fixed w-screen">
       <div class="w-36">
         <a href="#about">
-          <img src="./src/rustling-logo.png" alt="logo" class="w-full" />
+          <img
+            src="./src/assets/imgs/rustling-logo.png"
+            alt="logo"
+            class="w-full"
+          />
         </a>
       </div>
       <ul class="flex justify-between items-center">

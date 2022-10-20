@@ -1,4 +1,6 @@
 import NavBar from "./components/navbar/navbar.component";
+import GalleryItem from "./components/gallery-item/gallery-item.component";
+import { data } from "../src/assets/data/data";
 
 function App() {
   return (
@@ -43,109 +45,9 @@ function App() {
             <div class="flex flex-col items-center mb-10">
               <h2 class="text-5xl mb-10 ">作品集</h2>
               <div class="flex  flex-wrap justify-center items-center">
-                <div class="flex flex-col mx-3 my-5">
-                  <div class="w-96 h-96 overflow-hidden">
-                    <img
-                      src="./src/graphic_design/test.jpg "
-                      alt="text"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>國一先修班|DM視覺設計</a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3  my-5">
-                  <div class="w-96  h-96 overflow-hidden">
-                    <img
-                      src="./src/graphic_design/milk.jpg"
-                      alt="milk"
-                      class="w-full"
-                    />
-                    <img
-                      src="./src/graphic_design/milk1.jpg"
-                      alt="milk"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>寵物羊奶粉|摺頁設計</a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3  my-5">
-                  <div class="w-96 h-96 overflow-hidden">
-                    <img
-                      src="https://i.pinimg.com/originals/2d/62/3a/2d623ac8107fa56092fdfb53d7350f0b.jpg"
-                      alt="visual_design"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>美的在地閱讀與創生|展覽視覺設計</a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3  my-5">
-                  <div class="w-96  h-96 overflow-hidden">
-                    <img
-                      src="https://i.pinimg.com/originals/35/6c/3b/356c3bcac403ab280012437163297c32.jpg"
-                      alt="visual_design"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>提升小一新鮮人的ㄅㄆㄇ能力|DM視覺設計</a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3  my-5">
-                  <div class="w-96 h-96 overflow-hidden">
-                    <img
-                      src="https://i.pinimg.com/originals/7b/fb/c6/7bfbc6a356012070583d6cae1a044ae9.jpg"
-                      alt="visual_design"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>放學窩課程貼文插畫|illustration</a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3  my-5">
-                  <div class="w-96  h-96 overflow-hidden">
-                    <img
-                      src="https://i.pinimg.com/originals/9b/83/1a/9b831a07f54b457d796a8c5e1c3de6de.jpg"
-                      alt="visual_design"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>2022母親節卡片|illustration</a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3  my-5">
-                  <div class="w-96 h-96 overflow-hidden">
-                    <img
-                      src="https://i.pinimg.com/originals/b4/c0/dd/b4c0dda96f736cecf6716524fddcc272.jpg"
-                      alt="visual_design"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a href="./products.html">
-                      晚安凍膜包裝設計|Package Design
-                    </a>
-                  </h4>
-                </div>
-                <div class="flex flex-col mx-3 my-5">
-                  <div class="w-96  h-96 overflow-hidden">
-                    <img
-                      src="https://i.pinimg.com/originals/30/b8/20/30b820c99141f73e460fd1829ff7f401.jpg"
-                      alt="visual_design"
-                      class="w-full"
-                    />
-                  </div>
-                  <h4>
-                    <a>四物飲包裝設計|Package Design</a>
-                  </h4>
-                </div>
+                {data.map((item) => (
+                  <GalleryItem props={item} />
+                ))}
               </div>
             </div>
           </section>
@@ -166,11 +68,15 @@ function App() {
                       href="https://www.facebook.com/the.rustling.Design"
                       target="_blank"
                     >
-                      <img src="./src/facebook.png" width="48px" class="mr-3" />
+                      <img
+                        src="./src/assets/imgs/facebook.png"
+                        width="48px"
+                        class="mr-3"
+                      />
                     </a>
                     <a target="_blank">
                       <img
-                        src="./src/instagram.png"
+                        src="./src/assets/imgs/instagram.png"
                         width="48px"
                         class="mr-3"
                       />
@@ -179,7 +85,7 @@ function App() {
                       href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.pinterest.com%2Ftherustlingdesign%2F_saved%2F%3Ffbclid%3DIwAR31fB3CgS1hUseRgWM8Q2eLYgxEoviP129Dt0Kc4wicqb4G0hfRfDd1pH4&h=AT2TuZN1PNQ77PJU9L0pOC6XA1SuW0zL--eP1EXS6tmG-LPjwDUfE_GAkOjO64KQuKebI-DklNCnaStWlrn-0mfA6FO3A0mJehSFeLS60yYEjwCOnFfkDtjXL1AanwBsLKvAIDbssYCVmSfwA7YRvQ"
                       target="_blank"
                     >
-                      <img src="./src/pinterest.png" width="48px" />
+                      <img src="./src/assets/imgs/pinterest.png" width="48px" />
                     </a>
                   </div>
                 </address>
@@ -187,7 +93,7 @@ function App() {
 
               <div class="w-1/3 m-5">
                 <img
-                  src="./src/rustling-mark.png"
+                  src="./src/assets/imgs/rustling-mark.png"
                   alt="rustling-mark"
                   class="w-full rounded-full"
                 />
