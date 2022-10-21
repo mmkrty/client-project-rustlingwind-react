@@ -6,7 +6,7 @@ export const data = [
     userStory: "",
     client: "",
     thumbImgSrc:
-      "https://i.pinimg.com/originals/2d/62/3a/2d623ac8107fa56092fdfb53d7350f0b.jpg",
+      "https://i.pinimg.com/564x/fa/fa/18/fafa183a5da38a8c77797767fa570516.jpg",
     imgsSrc: [],
   },
   {
@@ -16,7 +16,7 @@ export const data = [
     userStory: "",
     client: "",
     thumbImgSrc:
-      "https://i.pinimg.com/originals/9b/83/1a/9b831a07f54b457d796a8c5e1c3de6de.jpg",
+      "https://i.pinimg.com/564x/7b/fb/c6/7bfbc6a356012070583d6cae1a044ae9.jpg",
     imgsSrc: [],
   },
   {
@@ -26,7 +26,7 @@ export const data = [
     userStory: "",
     client: "",
     thumbImgSrc:
-      "https://i.pinimg.com/originals/35/6c/3b/356c3bcac403ab280012437163297c32.jpg",
+      "https://i.pinimg.com/originals/2d/62/3a/2d623ac8107fa56092fdfb53d7350f0b.jpg",
     imgsSrc: [],
   },
   {
@@ -36,7 +36,7 @@ export const data = [
     userStory: "",
     client: "",
     thumbImgSrc:
-      "https://i.pinimg.com/originals/7b/fb/c6/7bfbc6a356012070583d6cae1a044ae9.jpg",
+      "https://i.pinimg.com/564x/35/6c/3b/356c3bcac403ab280012437163297c32.jpg",
     imgsSrc: [],
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     userStory: "",
     client: "",
     thumbImgSrc:
-      "https://i.pinimg.com/originals/b4/c0/dd/b4c0dda96f736cecf6716524fddcc272.jpg",
+      "https://i.pinimg.com/originals/9b/83/1a/9b831a07f54b457d796a8c5e1c3de6de.jpg",
     imgsSrc: [],
   },
   {
@@ -56,7 +56,7 @@ export const data = [
     userStory: "",
     client: "",
     thumbImgSrc:
-      "https://i.pinimg.com/originals/30/b8/20/30b820c99141f73e460fd1829ff7f401.jpg",
+      "https://i.pinimg.com/originals/b4/c0/dd/b4c0dda96f736cecf6716524fddcc272.jpg",
     imgsSrc: [],
   },
 ];
